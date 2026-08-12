@@ -110,3 +110,13 @@ div#social a{
 div#social a:hover{
   color: var(--destaque-inverso);
 }
+
+section#detalhes{
+  grid-column: 2;
+}
+
+video.paisagem{
+  width: 600px;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
